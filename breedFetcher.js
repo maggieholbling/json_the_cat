@@ -9,6 +9,6 @@ const getBreeds = (breed) => {
     if (!data[0]) return console.log(`Error: ${breed} breed is not found`);
     console.log(data[0]["description"]);
   });
-}
+};
 
 getBreeds(...process.argv.slice(2));
